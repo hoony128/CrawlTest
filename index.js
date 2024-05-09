@@ -28,7 +28,6 @@ if(typeof gbn != "undefined")
 		,targetFilter: (target) => target.type() !== 'other' || !!target.url()
 	});
 
-	// 새로운 페이지를 연다.
 	const page = await browser.newPage();
 	// 페이지의 크기를 설정한다.
 	await page.setViewport({
