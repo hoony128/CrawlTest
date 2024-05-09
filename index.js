@@ -29,7 +29,7 @@ if(typeof gbn != "undefined")
 	});
 
 	const page = await browser.newPage();
-	// 페이지의 크기를 설정한다.
+	// 페이지의 크기를 설정한다.2
 	await page.setViewport({
 	width: 1366,
 	height: 768
